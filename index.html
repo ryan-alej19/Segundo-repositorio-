@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía - Ryan Alejandro Gallegos Mera</title>
+    <style>
+        h3 {
+            color: blue;
+        }
+        td, th {
+            padding: 10px;
+        }
+        .azul {
+            color: blue;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h3>Nombre Completo: Ryan Alejandro Gallegos Mera</h3>
+    <h2>Formación</h2>
+    <p>Me gradué en el colegio fiscomisional salesiana "Sánchez y Cifuentes" en Ibarra en el 2023.</p>
+    <p>Estoy actualmente estudiando Desarrollo en Software en la Pontificia Universidad Católica del Ecuador Sede Ibarra (PUCESI).</p>
+    <p>Estoy siguiendo un curso de ciberseguridad de Google</p>
+    <h1>Datos Personales</h1>
+    <table>
+        <tr>
+            <th>Nombre Completo</th>
+            <th>Edad</th>
+            <th>Correo Electrónico</th>
+        </tr>
+        <tr>
+            <td>Ryan Alejandro Gallegos Mera</td>
+            <td class="azul">19</td>
+            <td>ryangallegosmera1@gmail.com</td>
+        </tr>
+    </table>
+
+    <h1>Mis Hobbies</h1>
+    <ul>
+        <li>Jugar</li>
+        <li>Oír música</li>
+        <li>Seguir cursos</li>
+        <li>Hacer deporte</li>
+    </ul>
+
+    <h1>Imagen Relevante</h1>
+    <img src="IMG_5247.jpg" alt="Imagen relevante">
+
+    <h1>Más Información</h1>
+    <table>
+        <tr>
+            <th>Fecha de Nacimiento</th>
+            <th>Cédula</th>
+        </tr>
+        <tr>
+            <td>15 de Julio de 2005</td>
+            <td class="azul">1003765318</td>
+        </tr>
+    </table>
+
+    <h3>Calcular Diferencias</h3>
+    <input type="text" id="inputCedula" placeholder="Ingrese su cédula">
+    <button onclick="calcular()">Calcular</button>
+    
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
